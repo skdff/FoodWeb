@@ -28,9 +28,35 @@
 }
 
 #services-container {
-    height: 1690px;
+    height: 1300px;
 }
 
+/* Media querying firing for the different ratio  */
+@media (max-width:450px) {
+    #services-container {
+        height: 1860px;
+    }
+
+    #services .box img {
+        height: 146px;
+        display: block;
+        margin: auto;
+
+    }
+}
+
+@media (min-width:455px) and (max-width:720px) {
+    #services-container {
+        height: 1500px;
+    }
+
+    #services .box img {
+        height: 146px;
+        display: block;
+        margin: auto;
+
+    }
+}
 
 /* Client-section */
 #clients {

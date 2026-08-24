@@ -1,45 +1,54 @@
-/* css Reset  */
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-/* css variables  */
-/* :root{
-    --navbar-height:59px;
-} */
-/* Navigation Bar */
-
-#navbar{
-    display:flex;
-    align-items:center;
-    padding:10px 20px;
-}
-/* Logo and Image  */
-/* Navigation bar : log and Image  */
-#logo{
-    margin: 30px 50px;
-}
-#logo img{
-    height:60px;
+/* Navigation-section  */
+#navbar {
+    flex-direction: column;
 }
 
-/* Navigation bar :List styling  */
-#navbar ul{
-    display: flex;
-    margin-left: 20px;
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
 }
-#navbar ul li{
-    list-style: none;
-    font-size: 1.2rem;
+
+/* Home-section */
+#home {
+    height: 350px;
 }
-#navbar ul li a{
-    display: block;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 10px;
+
+#home::before {
+    height: 400px;
 }
-#navbar ul li a:hover{
-    background:black;
-    color:white;
+
+#home p {
+    font-size: 13px;
+}
+
+/* Service-section */
+#services {
+    flex-direction: column;
+}
+
+#services-container {
+    height: 1640px;
+}
+
+
+/* Client-section */
+#clients {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+
+/* ContactUs-section */
+
+
+
+/* Utility Class */
+.h-primary {
+    font-size: 26px;
+}
+
+.btn {
+    font-size: 13px;
+    padding: 4px 8px;
 }
