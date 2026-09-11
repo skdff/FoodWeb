@@ -5,7 +5,8 @@
     /* background-color: beige;
     z-index: 0; */
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -63,7 +64,7 @@ html{
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
-    
+
 }
 
 #navbar ul li a:hover {
@@ -142,10 +143,11 @@ html{
 }
 
 /* Client section  */
- #client-section{
+#client-section {
     position: relative;
     /* height: 344px; */
- }
+}
+
 #clients {
     display: flex;
     justify-content: center;
@@ -247,6 +249,23 @@ footer {
 
 .btn:hover {
     color: rgb(175, 131, 73);
+}
+
+.btn1 {
+    border: 2px solid rgb(247, 60, 3);
+    margin: 2px;
+    padding: 2px 7px;
+    border-radius: 23px;
+    background-color: rgb(68 41 3);
+    color: bisque;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+    /* Add these for perfect centering */
+    /* text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center; */
 }
 
 .center {
